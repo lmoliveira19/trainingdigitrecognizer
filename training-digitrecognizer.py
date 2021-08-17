@@ -112,7 +112,7 @@ model = baseline_model(num_pixels, num_classes)
 # 3.7 Train the Model
 
 # Fit the model
-model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs = 10, batch_size=200, verbose=2)
+model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs = 1, batch_size=200, verbose=2)
 
 
 # 3.8 Evaluate the Model against Test Data
